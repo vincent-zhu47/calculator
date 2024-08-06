@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#display {
+    background-color: grey;
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    text-align: right;
+    line-height: 75px;
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+button {
+    height: 75px;
+    width: 75px;
+}
+
+#calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.zero {
+    width: 150px;
+}
